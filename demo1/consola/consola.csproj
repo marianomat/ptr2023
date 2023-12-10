@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Mensajes\Mensajes.csproj" />
+    <ProjectReference Include="..\toplevel\toplevel.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,11 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consola", "consola\consola.csproj", "{B8A32AD6-5525-4CB5-8AAD-C2ABD9CBB9ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "consola", "consola\consola.csproj", "{B8A32AD6-5525-4CB5-8AAD-C2ABD9CBB9ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{15BF056E-A592-491C-9FFB-DB1163495024} = {15BF056E-A592-491C-9FFB-DB1163495024}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mensajes", "Mensajes\Mensajes.csproj", "{77A17883-11ED-4308-83EF-28A624D1AB85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mensajes", "Mensajes\Mensajes.csproj", "{77A17883-11ED-4308-83EF-28A624D1AB85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toplevel", "toplevel\toplevel.csproj", "{15BF056E-A592-491C-9FFB-DB1163495024}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "toplevel", "toplevel\toplevel.csproj", "{15BF056E-A592-491C-9FFB-DB1163495024}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
